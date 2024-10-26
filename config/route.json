@@ -18,7 +18,19 @@
         {
             "type": "field",
             "outboundTag": "socks5-warp",
-            "domain": []
+            "domain": [
+				"geosite:netflix",
+				"geosite:google",
+				"geosite:openai",
+				"geosite:tiktok",
+				"geosite:microsoft",
+				"challenges.cloudflare.com",
+				"geosite:msn",
+				"geosite:bing",
+				"geoip:CN",
+				"bingapis.com",
+				"ipinfo.io"
+            ]
         },
         {
             "type": "field",
