@@ -1,4 +1,3 @@
-version: '3'
 services: 
   xrayr: 
     image: ghcr.io/xrayr-project/xrayr:latest
