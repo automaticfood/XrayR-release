@@ -11,6 +11,27 @@
             "domainStrategy": "UseIPv6"
         }
     },
+	{
+		"tag":"surf_wireguard",
+		"protocol":"wireguard",
+		"settings":{
+			"secretKey":"privatekay私钥",
+			"address":[
+				"10.14.0.2/32"
+			],
+			"peers":[
+				{
+					"publicKey":"peers公钥",
+					"allowedIPs":[
+						"0.0.0.0/0",
+						"::/0"
+					],
+					"endpoint":"peers连接地址"
+				}
+			],
+			"mtu":1280
+		}
+	},
     {
         "tag": "socks5-warp",
         "protocol": "socks",

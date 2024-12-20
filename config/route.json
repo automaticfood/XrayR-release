@@ -17,7 +17,7 @@
         },
         {
             "type": "field",
-            "outboundTag": "socks5-warp",
+            "outboundTag": "surf_wireguard",
             "domain": [
 				"geosite:netflix",
 				"geosite:google",
